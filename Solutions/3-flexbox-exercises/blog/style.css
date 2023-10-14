@@ -1,0 +1,45 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.blog {
+  margin: 5rem 15rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.blog__item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.blog__item:nth-child(odd) .blog__img {
+  order: 2;
+}
+
+.blog__item:nth-child(odd) .blog__info {
+  order: 1;
+}
+
+.blog__img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.blog__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.blog__text {
+  max-width: 25rem;
+}

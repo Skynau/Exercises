@@ -1,0 +1,6 @@
+div {
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(blue 10%, orange 90%);
+    margin: auto;
+}

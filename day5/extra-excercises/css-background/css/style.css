@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(yellow, blue);
+    height: 300vh;
+}
+
+/* Supposed solution from classes (does not work for me): */
+
+/* .my__element {
+    background-color: #ffffff;
+    background-image: url(/img/bg-image.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 50vw;
+    height: 50vh;
+} */
+
+
+.my__element {
+    background-image: url(/img/bg-image.jpg);
+    background-color: #ffffff;
+    position: fixed;
+    width: 50vw;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}

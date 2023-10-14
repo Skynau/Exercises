@@ -1,0 +1,17 @@
+#exercise_bg_box {
+    padding: 2em;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    transition: background-color 2s linear, color 2s linear, border 0s ease-in, width 0s linear, height 0s linear;
+}
+
+#exercise_bg_box.changed {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    width: 96px;
+    height: 96px;
+}

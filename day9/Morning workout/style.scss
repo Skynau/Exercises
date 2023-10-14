@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+$larger: 700px;
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 3vh;
+    background-color: grey;
+    width: 100%;
+    @media (min-width: $larger) {
+        padding: 7vh;
+        font-size: 1.5rem;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    @media (min-width: $larger) {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5vh;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 3vh auto;
+        border: 2px solid lightgrey;
+        @media (min-width: $larger) {
+            margin: 3vh;
+        }
+        .image {
+            width: inherit;
+            object-fit: cover;
+            img {
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+        .text {
+            display: flex;
+            align-items: center;
+            height: 20vh;
+            padding: 20px;
+            font-size: 4vw;
+            border-top: 2px solid lightgrey;
+            @media (min-width: $larger) {
+                font-size: 1.5vw;
+            }
+        }
+    }
+}

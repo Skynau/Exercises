@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-size: 15px;
+    background-color: #444444;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.intro {
+    border-bottom: 30px solid transparent;
+}
+
+img {
+    opacity: 0.5;
+}
+
+a {
+    color: rgba(255, 245, 253, 0, 5);
+}
+
+a:hover {
+    color: white;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+h2 {
+    background-color: white;
+}
+
+.top-5__list {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+.top-5__header {
+    color: blue;
+}
+
+.top-5__header.top-5__header--colorized {
+    color: pink;
+    font-size: 2rem;
+}
+
+/* the 2 above selectors are connected to both HTML and js files, in js they are part of the function related to the activity of onclick the appearance of h2 element will alter */

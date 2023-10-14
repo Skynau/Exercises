@@ -1,0 +1,17 @@
+.check {
+    background-image: url(../img/check.svg);
+    width: 100px;
+    height: 100px;
+}
+
+.cross {
+    background-image: url(../img/cross.svg);
+    width: 100px;
+    height: 100px;
+}
+
+.qmark {
+    background-image: url(../img/question.svg);
+    width: 100px;
+    height: 100px;
+}

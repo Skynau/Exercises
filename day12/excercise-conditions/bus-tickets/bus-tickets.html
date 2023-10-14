@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bus-tickets.js" defer></script>
+</head>
+<body>
+    <h1>Ticket pricing</h1>
+    <p>Our basic price for a bus ticket is 12 euros</p>
+    <ul>However, we do have the following discounts:
+        <li>
+                    age under 6 years (preschool kids): 0 euro,
+            
+        </li><li>age between 6 and 15 (pupils): 35% of the basic price,</li>
+        <li>
+            age between 16 and 26 (students): 65% of the basic price,
+            
+        </li><li>age between 27 and 64 (adults): 100% of the basic price,</li>
+        <li>
+            otherwise (seniors): 50% of the basic price.
+            
+        </li>    
+    </ul>
+    <h3>Please indicate your age to determine the price of ticket:</h3>
+    <label for="age">Age</label>
+    <input type="text" id="age" name="ageInfo">
+    <button onclick="checkMyPrice()">Submit</button>
+    <h3>Your price will be:</h3>
+    <h4></h4>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="temperatures.js"></script>
+</head>
+<body>
+    <h1>Highest temperature</h1>
+    <h2>Input temperatures at the three times of the day</h2>
+    <label for="morning">8am</label>
+    <input type="text" id="morning" name="morningTemp"><br><br>
+    <label for="afternoon">4pm</label>
+    <input type="text" id="afternoon" name="afternoonTemp"><br><br>
+    <label for="midnight">0am</label>
+    <input type="text" id="midnight" name="midnightTemp"><br><br>
+    <button onclick="getHighestTemp()">Submit</button>
+    <h2>The highest temp was:</h2>
+    <h4></h4>
+</body>
+</html>

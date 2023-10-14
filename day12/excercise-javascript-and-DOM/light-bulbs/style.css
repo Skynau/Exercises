@@ -1,0 +1,7 @@
+.on {
+    background-image: url(img/bulb-on.png);
+}
+
+.off {
+    background-image: url(img/bulb-off.png);
+}

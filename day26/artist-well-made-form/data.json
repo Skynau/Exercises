@@ -1,0 +1,51 @@
+{
+  "1": {
+    "id": 1,
+    "first_name": null,
+    "second_name": null,
+    "year_of_birth": null,
+    "genre": null
+  },
+  "2": {
+    "id": 2,
+    "first_name": "Pepa",
+    "second_name": "Prusa",
+    "year_of_birth": 1978,
+    "genre": "hard rock"
+  },
+  "3": {
+    "id": 3,
+    "first_name": null,
+    "second_name": null,
+    "year_of_birth": null,
+    "genre": null
+  },
+  "4": {
+    "id": 4,
+    "first_name": null,
+    "second_name": null,
+    "year_of_birth": null,
+    "genre": null
+  },
+  "5": {
+    "id": 5,
+    "first_name": null,
+    "second_name": null,
+    "year_of_birth": null,
+    "genre": null
+  },
+  "6": {
+    "id": 6,
+    "first_name": null,
+    "second_name": null,
+    "year_of_birth": null,
+    "genre": null
+  },
+  "7": {
+    "id": 7,
+    "first_name": "Fdsf",
+    "second_name": "WFds",
+    "year_of_birth": 1988,
+    "genre": "pop"
+  }
+}

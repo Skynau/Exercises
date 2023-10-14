@@ -1,0 +1,36 @@
+@keyframes slidein {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    20% {
+        left: 10px;
+        top: 10px
+    }
+
+    40% {
+        left: 600px;
+        top: 600px
+    }
+
+    100% {
+        left: 600px;
+        top: 0px;
+    }
+}
+
+.box {
+
+    // state of the box before the animation
+
+}
+
+.box--animated {
+    //Has to be with Absolute to have effect of the top and left!:
+    position: absolute;
+    // apply the animation here
+    animation-name: slidein;
+    animation-duration: 2s;
+    background-color: black;
+}

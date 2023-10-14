@@ -1,0 +1,1 @@
+export const text = 'Some random text from module B'

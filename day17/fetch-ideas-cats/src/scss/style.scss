@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+
+img {
+    width: 100px;
+    border: 2px solid black;
+    transition: width 2s linear 0.5s;
+}
+
+img.wide {
+    width: 300px;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 30px;
+    font-size: medium;
+}
+
+p {
+    margin: 15px;
+    padding-bottom: 30px;
+    max-width: 600px;
+    font-size: large;
+    font-style: italic;
+}
