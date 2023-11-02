@@ -1,0 +1,4 @@
+SELECT *
+FROM `movies`
+WHERE 1
+ORDER BY `rating` DESC

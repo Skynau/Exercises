@@ -1,0 +1,13 @@
+img {
+    width: 400px;
+}
+
+.article {
+    display: flex;
+    border: 2px solid black;
+}
+
+.article_textContainer {
+    padding: 10px;
+}
+
